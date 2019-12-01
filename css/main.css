@@ -37,6 +37,12 @@ svg {
   .pad-c {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+}
+  .unit:nth-child(2) {
+    border-top: none;
+    border-bottom: none;
+    border-left: 2px solid rgba(255, 255, 255, .5);
+    border-right: 2px solid rgba(255, 255, 255, .5);
   }
 
 }
