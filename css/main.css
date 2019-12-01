@@ -1,0 +1,42 @@
+html {
+  font-family: Overpass, sans-serif;
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+}
+
+h1, h2, p, i, .btn, .btn-ghost {
+  color: #fff;
+  text-decoration: none;
+  border-color: #fff;
+  border-width: 2px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #ff5e3a;
+}
+
+svg {
+  fill: currentColor;
+}
+
+.border-b {
+  border-bottom: 2px solid rgba(255, 255, 255, .8);
+}
+
+@media only screen and (min-width: 60em) {
+
+  .pad-r, .max-length {
+    padding-right: 1.5rem;
+  }
+
+  .pad-l {
+    padding-left: 1.5rem;
+  }
+
+  .pad-c {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+}
